@@ -3,9 +3,9 @@ spring:
     name: rmi-calculator
 
   datasource:
-    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}?sslmode=require
-    username: ${PGUSER}
-    password: ${PGPASSWORD}
+    url: jdbc:postgresql://postgres.railway.internal:5432/railway?sslmode=require
+    username: postgres
+    password: yDyvAZkFjDvirsfOxxAKaMEMXzYsLipZ
 
   jpa:
     hibernate:
